@@ -9,3 +9,5 @@ mydb = mysql.connector.connect(
     database = 'mydb'
 )
 print(mydb.get_server_info())
+except mysql.connector.Error
+
